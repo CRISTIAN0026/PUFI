@@ -21,10 +21,6 @@ export default function ContactForm() {
         field="email"
         errors={state.errors}
       />
-      <textarea
-        id="message"
-        name="message"
-      />
       <ValidationError 
         prefix="Message" 
         field="message"

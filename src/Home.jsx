@@ -6,6 +6,7 @@ import Encabezado from './Encabezado';
 import Ventas from './Ventas';
 import PieDePagina from './PieDePagina';
 import ContactForm from './ContactForm';
+import Espufi from './Espufi';
 
 export default function Home(){
     let productos = useSelector(state => state.productos)
@@ -30,6 +31,7 @@ console.log(productos)
                     )
                 })
             }
+            <Espufi/>
         <ContactForm/>
         <PieDePagina/>
         </div>

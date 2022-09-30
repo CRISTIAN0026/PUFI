@@ -1,19 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import "./Ventas.css";
 
 export default function Ventas({title, image, description, id}){
 
     return(
-        <div>
+        <div className="ventas">
             <div>
             <h2>{title}</h2>
-            <img src={image} alt="" />
+            <img src={image} alt="" className="images"/>
             </div>
-            <div>
+            <div className="description">
                 <p>{description}</p>
-                <Link to={'/' + id}>
                 <button>Ver mas</button>
-                </Link>
             </div>
         </div>
         

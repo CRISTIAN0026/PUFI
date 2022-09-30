@@ -9,7 +9,7 @@ import "./PieDePagina.css";
 export default function PieDePagina(){
 
     return(
-        <div>
+        <div className="paginated1">
         <div className="paginated">
             <h1>Pufi</h1>
             <div className="text">

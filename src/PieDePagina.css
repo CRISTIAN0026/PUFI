@@ -4,10 +4,19 @@
     justify-content: space-around;
 }
 .ultimo{
+    border: 0.5px solid wheat;
+    border-radius: 1px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .text{
+    margin-top: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.paginated1{
+    border: 0.5px solid black;
+    border-radius: 1px;
+    margin-top: 50px;
 }

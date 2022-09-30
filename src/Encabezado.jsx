@@ -31,7 +31,7 @@ export default function Encabezado(){
         </div>
         </div>
         <div className="inicio">
-            <p>MI CUENTA</p>
+            <p className="th">MI CUENTA</p>
             <p>Mi COMPRA </p>
         </div>
         </div>

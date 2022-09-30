@@ -9,19 +9,19 @@ import ContactForm from './ContactForm';
 import Espufi from './Espufi';
 
 export default function Home(){
-    // let productos = useSelector(state => state.productos)
-    // let dispatch = useDispatch()
+    let productos = useSelector(state => state.productos)
+    let dispatch = useDispatch()
 
-    // useEffect(()=>{
-    //     dispatch(getProductos())
-    // },[dispatch])
+    useEffect(()=>{
+        dispatch(getProductos())
+    },[dispatch])
 
-//console.log(productos)
+console.log(productos)
 
     return(
         <div>
             <Encabezado/>
-            {/* <ControlledCarousel/>
+            {/* <ControlledCarousel/> */}
             {
                 productos && productos.map(p =>{
                     return(
@@ -32,7 +32,7 @@ export default function Home(){
                 })
             }
             <Espufi/>
-        <ContactForm/> */}
+        <ContactForm/>
         <PieDePagina/>
         </div>
     )

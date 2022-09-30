@@ -1,0 +1,21 @@
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.encabezado1{
+    display: flex;
+    flex-direction: row;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons{
+    margin-left: 20px;
+}

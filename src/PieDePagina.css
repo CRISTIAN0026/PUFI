@@ -1,0 +1,13 @@
+.paginated{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ultimo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

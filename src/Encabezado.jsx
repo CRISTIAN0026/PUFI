@@ -8,7 +8,7 @@ export default function Encabezado(){
 
 
     return(
-        <div className="App">
+        <div>
             <div>
                 <h1>Pufi</h1>
             </div>

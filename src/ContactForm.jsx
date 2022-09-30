@@ -7,9 +7,13 @@ export default function ContactForm() {
       return <p>Thanks for joining!</p>;
   }
   return (
+    <div>
+      <h3>NEWSLETTER</h3>
+      <h1>SUSCRIBETE</h1>
+      <p>Y enterate de todas las novedades</p>
       <form onSubmit={handleSubmit}>
       <label htmlFor="email">
-        Email Address
+        Ingresa tu email
       </label>
       <input
         id="email"
@@ -30,5 +34,6 @@ export default function ContactForm() {
         Submit
       </button>
     </form>
+    </div>
   );
 }
